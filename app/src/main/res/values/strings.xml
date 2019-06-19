@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Startup Unicorn</string>
+    <string name="nama_startup">NAMA STARTUP</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="berdiri">Berdiri</string>
+    <string name="nama_ceo">CEO</string>
+</resources>
