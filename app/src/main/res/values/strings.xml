@@ -4,4 +4,6 @@
     <string name="deskripsi">Deskripsi</string>
     <string name="berdiri">Berdiri</string>
     <string name="nama_ceo">CEO</string>
+    <string name="btn_detail">Detail</string>
+    <string name="btn_share">Share</string>
 </resources>
