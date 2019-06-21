@@ -29,8 +29,8 @@ public class DetailStartupActivity extends AppCompatActivity {
         startup_nama.setText(startupkey.getName());
         startup_desc.setText(startupkey.getRemarks());
         deskripsi.setText(startupkey.getDeskripsi());
-        startup_berdiri.setText(startupkey.getLahir());
-        startup_ceo.setText(startupkey.getWafat());
+        startup_berdiri.setText(startupkey.getBerdiri());
+        startup_ceo.setText(startupkey.getCeo());
 
         Log.i("photo", startupkey.getPhoto());
         Log.i("deskripsi", startupkey.getDeskripsi());

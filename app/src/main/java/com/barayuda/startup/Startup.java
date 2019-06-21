@@ -4,15 +4,15 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class Startup implements Parcelable {
-    private String name, remarks, photo, deskripsi, lahir, wafat;
+    private String name, remarks, photo, deskripsi, berdiri, ceo;
 
     protected Startup(Parcel in) {
         name = in.readString();
         remarks = in.readString();
         photo = in.readString();
         deskripsi = in.readString();
-        lahir = in.readString();
-        wafat = in.readString();
+        berdiri = in.readString();
+        ceo = in.readString();
     }
 
     public static final Parcelable.Creator<Startup> CREATOR = new Parcelable.Creator<Startup>() {
@@ -63,20 +63,20 @@ public class Startup implements Parcelable {
         this.deskripsi = deskripsi;
     }
 
-    public String getLahir() {
-        return lahir;
+    public String getBerdiri() {
+        return berdiri;
     }
 
-    public void setLahir(String lahir) {
-        this.lahir = lahir;
+    public void setBerdiri(String berdiri) {
+        this.berdiri = berdiri;
     }
 
-    public String getWafat() {
-        return wafat;
+    public String getCeo() {
+        return ceo;
     }
 
-    public void setWafat(String wafat) {
-        this.wafat = wafat;
+    public void setCeo(String ceo) {
+        this.ceo = ceo;
     }
 
     @Override
@@ -90,7 +90,7 @@ public class Startup implements Parcelable {
         parcel.writeString(this.remarks);
         parcel.writeString(this.photo);
         parcel.writeString(this.deskripsi);
-        parcel.writeString(this.lahir);
-        parcel.writeString(this.wafat);
+        parcel.writeString(this.berdiri);
+        parcel.writeString(this.ceo);
     }
 }

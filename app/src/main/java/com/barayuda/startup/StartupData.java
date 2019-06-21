@@ -47,8 +47,8 @@ public class StartupData {
             startup.setRemarks(data[i][1]);
             startup.setPhoto(data[i][2]);
             startup.setDeskripsi(data[i][3]);
-            startup.setLahir(data[i][4]);
-            startup.setWafat(data[i][5]);
+            startup.setBerdiri(data[i][4]);
+            startup.setCeo(data[i][5]);
 
             list.add(startup);
         }
