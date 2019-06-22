@@ -50,7 +50,7 @@ public class CardViewStartupAdapter extends RecyclerView.Adapter<CardViewStartup
 
 
 
-        holder.btnsahre.setOnClickListener(new CustomOnItemClickListener(position, new CustomOnItemClickListener.OnItemClickCallback() {
+        holder.btnshare.setOnClickListener(new CustomOnItemClickListener(position, new CustomOnItemClickListener.OnItemClickCallback() {
             @Override
             public void onItemClicked(View view, int position) {
                 Toast.makeText(context, "Share"+getListStartup().get(position).getName(), Toast.LENGTH_SHORT).show();
@@ -72,7 +72,7 @@ public class CardViewStartupAdapter extends RecyclerView.Adapter<CardViewStartup
     public class CardViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         ImageView imgPhoto;
         TextView tvname, tvremarks;
-        Button btndetail, btnsahre;
+        Button btndetail, btnshare;
         Startup startup;
 
         public CardViewHolder(View itemView) {
@@ -80,7 +80,7 @@ public class CardViewStartupAdapter extends RecyclerView.Adapter<CardViewStartup
             imgPhoto = itemView.findViewById(R.id.img_item_photo);
             tvname = itemView.findViewById(R.id.tv_item_name);
             tvremarks = itemView.findViewById(R.id.tv_item_remarks);
-            btnsahre = itemView.findViewById(R.id.btn_set_share);
+            btnshare = itemView.findViewById(R.id.btn_set_share);
             btndetail = itemView.findViewById(R.id.btn_set_detail);
             btndetail.setOnClickListener(this);
         }
