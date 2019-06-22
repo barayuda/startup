@@ -3,10 +3,10 @@ Latihan Android Java Pemula
 
 ## Screenshot Aplikasi
 * Screenshot Main Activity
-![Screenshot 1](https://raw.githubusercontent.com/barayuda/startup/master/screenshot_1.png)
+<img src="https://raw.githubusercontent.com/barayuda/startup/master/screenshot_1.png" width="50%" alt="Screenshot 1" />
 
 * Screenshot Detail Activity
-![Screenshot 2](https://raw.githubusercontent.com/barayuda/startup/master/screenshot_2.png)
+<img src="https://raw.githubusercontent.com/barayuda/startup/master/screenshot_2.png" width="50%" alt="Screenshot 2" />
 
 ## Sertifikat Kelulusan Android Pemula Dicoding
-![Sertifikat Dicoding](https://raw.githubusercontent.com/barayuda/startup/master/sertifikat.png)
+<img src="https://raw.githubusercontent.com/barayuda/startup/master/sertifikat.png" width="50%" alt="Sertifikat Dicoding" />
